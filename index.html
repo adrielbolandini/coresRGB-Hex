@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbox</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <span>R:</span>
+        <input id="Rrange" min='0' max='255' step='1' type="range"/>
+        <input id="Rnumber" type="number"/>
+        <span>G:</span>
+        <input id="Grange" min='0' max='255' step='1' type="range"/>
+        <input id="Gnumber" type="number"/>
+        <span>B:</span>
+        <input id="Brange" min='0' max='255' step='1' type="range"/>
+        <input id="Bnumber" type="number"/>
+    </div>
+    <div id="cor"></div>
+    <div class="main">
+        <span>Hex:</span>
+        <input id="hex" type="text" disabled/>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
